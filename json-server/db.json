@@ -1,0 +1,177 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "TypeScript",
+      "text": "TypeScript — язык программирования, представленный Microsoft в 2012 году и позиционируемый как средство разработки веб-приложений, расширяющее возможности JavaScript.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+      "date": "Sat, 14 Jan 2023 07:55:00 GMT"
+    },
+    {
+      "id": "2",
+      "title": "React",
+      "text": "React — JavaScript-библиотека с открытым исходным кодом для разработки пользовательских интерфейсов.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+      "date": "Wen, 7 Dec 2023 09:55:00 GMT"
+    },
+    {
+      "id": "3",
+      "title": "Redux",
+      "text": "Redux — библиотека для JavaScript с открытым исходным кодом, предназначенная для управления состоянием приложения.",
+      "image": "https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png",
+      "date": "Sat, 14 Jan 2023 07:55:00 GMT"
+    },
+    {
+      "id": "4",
+      "title": "Webpack",
+      "text": "Webpack — это сборщик модулей JavaScript с открытым исходным кодом.",
+      "image": "https://webpack.js.org/icon-pwa-512x512.d3dae4189855b3a72ff9.png",
+      "date": "Fri, 13 Jan 2023 09:55:00 GMT"
+    },
+    {
+      "id": "5",
+      "title": "Storybook",
+      "text": "Storybook это окружения для разработки UI компонентов. Storybook позволяет просматривать библиотеку компонентов, увидеть различные состояния компонентов и интерактивно разрабатывать и тестировать компоненты.",
+      "image": "https://avatars.githubusercontent.com/u/22632046?s=280&v=4",
+      "date": "Mon, 30 Jan 2023 07:55:00 GMT"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "title": "Stellar-burger",
+      "description": "Идея проекта заключается в создании веб-приложения для вымышленной компании Stellar Burgers, которая основана на продаже фаст-фуда. Проект, созданный с целью изучения React.",
+      "image": "https://ramiltanker.github.io/portfolio/static/media/Stellar%20Burgers.aff84fed.png",
+      "stack": [
+        {
+          "id": "1",
+          "name": "TypeScript"
+        },
+        {
+          "id": "2",
+          "name": "React"
+        },
+        {
+          "id": "3",
+          "name": "Redux"
+        },
+        {
+          "id": "4",
+          "name": "Cypress"
+        },
+        {
+          "id": "5",
+          "name": "Jest"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Moon Robots",
+      "description": "NFT ферма, где заработок криптовалюты происходит с помощью NFT-яиц и земель. На данном проекте я выполнял задачи по взаимодействию фронтенд части с бекенд частью, занимался оптимизацией, декомпозицией, рефакторингом кода, ревью кода. Сеть, выбранная для запуска, является быстрой, безопасной и эффективной, что обеспечит бесперебойную и надежную работу игроков.",
+      "image": "https://ramiltanker.github.io/portfolio/static/media/moonrobotsMainImage.6cc6fe10.png",
+      "stack": [
+        {
+          "id": "1",
+          "name": "TypeScript"
+        },
+        {
+          "id": "2",
+          "name": "React"
+        },
+        {
+          "id": "3",
+          "name": "Web3"
+        },
+        {
+          "id": "4",
+          "name": "D3"
+        },
+        {
+          "id": "5",
+          "name": "Redux"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Moon Robots",
+      "description": "На данном проекте я выполнял задачи по взаимодействию фронтенд части с бекенд частью, занимался оптимизацией, декомпозицией, рефакторингом кода, ревью кода. Web3.0 игра с картой, по которой игроки могут перемещаться по ней. Появление новых NFT, таких как land, robots. Пользователь может создавать новые NFT, обменивать криптовалюту, отправлять робота на квест, и тем самым получая новые NFT и криптовалюту.",
+      "image": "https://ramiltanker.github.io/portfolio/static/media/moon-robots-game.60c27543.png",
+      "stack": [
+        {
+          "id": "1",
+          "name": "TypeScript"
+        },
+        {
+          "id": "2",
+          "name": "React"
+        },
+        {
+          "id": "3",
+          "name": "Web3"
+        },
+        {
+          "id": "4",
+          "name": "D3"
+        },
+        {
+          "id": "5",
+          "name": "Redux"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Распознавание документов",
+      "description": "Разработка no-code приложения. Создание динамических пайплайнов для распознавания документов",
+      "image": "https://spb.ritual.ru/upload/iblock/97f/Neobkhodimye_dokumenty_1_.png",
+      "stack": [
+        {
+          "id": "1",
+          "name": "TypeScript"
+        },
+        {
+          "id": "2",
+          "name": "React"
+        },
+        {
+          "id": "3",
+          "name": "Redux"
+        },
+        {
+          "id": "4",
+          "name": "Webpack"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Распознование изображений",
+      "description": "Создание web-приложения для распознования изображений и анализа объектов на самих изображения.",
+      "image": "https://app.picpack.io/static/media/rebemok.0bdd0a85.png",
+      "stack": [
+        {
+          "id": "1",
+          "name": "TypeScript"
+        },
+        {
+          "id": "2",
+          "name": "React"
+        },
+        {
+          "id": "3",
+          "name": "Webpack"
+        },
+        {
+          "id": "4",
+          "name": "Redux"
+        },
+        {
+          "id": "5",
+          "name": "Axios"
+        }
+      ]
+    }
+  ]
+}

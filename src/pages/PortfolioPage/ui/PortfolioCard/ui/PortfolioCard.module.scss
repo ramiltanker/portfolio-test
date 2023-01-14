@@ -1,0 +1,36 @@
+.portfolioCard {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    padding: 1.5em;
+    border-radius: 1em;
+    box-shadow: 0 0 50px -20px rgb(255 255 255 / 20%);
+}
+
+.image {
+    margin: 1em 0;
+    width: 100%;
+    max-width: 15em;
+    height: 10em;
+    border-radius: 1em;
+    align-self: center;
+}
+
+.stack {
+}
+
+.stackTitle {
+    margin: 2em 0 0.5em;
+}
+
+@media (max-width: 1024px) {
+    .image {
+        height: 13em;
+    }
+}
+
+@media (max-width: 768px) {
+    .stack {
+        display: flex;
+    }
+}

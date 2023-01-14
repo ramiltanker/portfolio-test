@@ -1,0 +1,16 @@
+.aboutPage {
+    width: 100%;
+    padding-top: 5em;
+}
+
+.container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .aboutPage {
+        padding: 0;
+    }
+}

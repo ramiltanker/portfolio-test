@@ -1,0 +1,33 @@
+.aboutInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.myPhoto {
+    width: 22em;
+    height: 30em;
+    border-radius: 2em;
+}
+
+.left {
+    margin-right: 3em;
+}
+
+@media (max-width: 768px) {
+    .aboutInfo {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .myPhoto {
+        width: 25em;
+        height: 32em;
+        margin-bottom: 3em;
+    }
+}

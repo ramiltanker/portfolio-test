@@ -1,0 +1,21 @@
+@import './reset';
+@import './variables/global';
+@import './themes/light';
+@import './themes/dark';
+
+body {
+    font-family: var(--font-family-main);
+    color: var(--primary-color);
+    font-size: 2.5%;
+}
+
+.app {
+    background: var(--bg-color);
+    min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 3%;
+    }
+}

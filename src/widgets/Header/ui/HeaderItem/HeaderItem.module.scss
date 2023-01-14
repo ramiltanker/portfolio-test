@@ -1,0 +1,27 @@
+.headerItem {
+    text-decoration: none;
+    transition: transform 200ms ease;
+}
+
+.headerItem:hover {
+    transform: scale(1.1);
+}
+
+.headerItem:not(:last-child) {
+    margin-right: 2em;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.active:hover {
+    transform: scale(1);
+    cursor: default;
+}
+
+@media (max-width: var(--mobile-breakpoint)) {
+    .headerItem:hover {
+        transform: scale(1);
+    }
+}

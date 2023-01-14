@@ -1,0 +1,12 @@
+# production
+/build
+
+# dependencies
+/node_modules
+
+.idea
+
+/storybook-static
+
+.loki/report.html
+.loki/report.json

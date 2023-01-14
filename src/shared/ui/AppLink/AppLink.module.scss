@@ -1,0 +1,16 @@
+.app-link, .primary, .primaryInverted {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.app-link {
+    color: var(--primary-color);
+}
+
+.primary {
+    color: var(--primary-color);
+}
+
+.primaryInverted {
+    color: var(--inverted-primary-color);
+}

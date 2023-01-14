@@ -1,0 +1,14 @@
+.stackItem {
+    
+}
+
+.stackItem:not(:last-child) {
+    margin-bottom: 0.5em;
+}
+
+@media (max-width: 768px) {
+    .stackItem:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 1em;
+    }
+}

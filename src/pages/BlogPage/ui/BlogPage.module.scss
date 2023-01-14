@@ -1,0 +1,17 @@
+.blogPage {
+    padding-top: 5em;
+}
+
+.container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.cards {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 2em;
+}

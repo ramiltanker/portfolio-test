@@ -1,0 +1,34 @@
+.portfolioPage {
+    padding-top: 5em;
+}
+
+.container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.items {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2em;
+}
+
+.status {
+    margin-top: 2em;
+}
+
+@media (max-width: 1024px) {
+    .items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .items {
+        grid-template-columns: 1fr;
+        
+    }
+}
