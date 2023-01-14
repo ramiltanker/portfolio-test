@@ -42,16 +42,23 @@ const BlogPage: FC<BlogPageProps> = memo(({ className }) => {
             <Loader />
           ) : (
             <div className={styles.cards}>
-              {[...posts]
-                .sort((a, b) => {
-                  const Date1: number = new Date(a.date).getTime();
-                  const Date2: number = new Date(b.date).getTime();
+              {posts.length ? (
+                [...posts]
+                  .sort((a, b) => {
+                    const Date1: number = new Date(a.date).getTime();
+                    const Date2: number = new Date(b.date).getTime();
 
-                  return Date2 - Date1;
-                })
-                .map((item) => {
-                  return <PostCard key={item.id} item={item} />;
-                })}
+                    return Date2 - Date1;
+                  })
+                  .map((item) => {
+                    return <PostCard key={item.id} item={item} />;
+                  })
+              ) : (
+                <Text
+                  title="К сожалению, ничего не найдено"
+                  className={styles.status}
+                />
+              )}
             </div>
           )}
         </div>
