@@ -3,6 +3,6 @@
 ## Как запустить проект
 
 ```bash
-yarn start:dev:server
-npm run start:dev:server
+yarn start:dev
+npm run start:dev
 ```
